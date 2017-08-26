@@ -15,7 +15,7 @@ describe('Array', function () {
             c[0].should.equal(4);
         });
         it('should be equal to the second item', function () {
-            var c = new Array(23, 46); // do not touch this
+             var c = new Array(23, 46); // do not touch this
             (c[0] + 12).should.equal(c[1]);
         });
         it('should result the fourth element in the array', function () {
